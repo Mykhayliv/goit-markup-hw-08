@@ -124,9 +124,6 @@
 /*Peges*/
 .site-nav {
   .site-page {
-    //   @media screen and (max-width: 767px) {
-    //   display: inline-block;
-    // }
     .iten {
       // padding-top: 32px;
       // padding-bottom: 32px;
@@ -136,7 +133,7 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
       // @media screen and (max-width: 767px) {
-      //   display: inline-flex;
+      //   display: inline-block;
       // }
       @media screen and (min-width: 768px) {
         padding-top: 32px;
@@ -235,7 +232,6 @@
       &:focus {
         color: $accent-color;
         --color1: #2196f3;
-        --color5: #2196f3;
       }
     }
     .contact-icon {

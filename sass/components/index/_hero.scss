@@ -8,7 +8,7 @@
     url(../images/Headermobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   margin: auto;
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -18,7 +18,7 @@
       background-image: url(../images/Headermobile2x.jpg);
     }
   }
-  @media screen and (min-width: 480px) and (max-width: 767px) {
+  @media screen and (min-width: 481px) {
     .hero-section {
       background-image: url(../images/Headertablet.jpg);
     }
@@ -30,7 +30,7 @@
       }
     }
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     .hero-section {
       background-image: url(../images/header.jpg);
     }
